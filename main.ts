@@ -1,5 +1,6 @@
 input.onButtonPressed(Button.A, function () {
     tellerA += 1
+    tellerB = 0
     basic.showNumber(tellerA)
     if (tellerA == 1) {
         bitbot.goms(BBDirection.Forward, 100, 3000)
